@@ -1,0 +1,6 @@
+c:\users\mbcorona\documents\visual studio 2013\Projects\FactoryHeroes\FactoryHeroes\bin\Debug\FactoryHeroes.exe.config
+c:\users\mbcorona\documents\visual studio 2013\Projects\FactoryHeroes\FactoryHeroes\obj\Debug\FactoryHeroes.csprojResolveAssemblyReference.cache
+c:\users\mbcorona\documents\visual studio 2013\Projects\FactoryHeroes\FactoryHeroes\bin\Debug\FactoryHeroes.exe
+c:\users\mbcorona\documents\visual studio 2013\Projects\FactoryHeroes\FactoryHeroes\bin\Debug\FactoryHeroes.pdb
+c:\users\mbcorona\documents\visual studio 2013\Projects\FactoryHeroes\FactoryHeroes\obj\Debug\FactoryHeroes.exe
+c:\users\mbcorona\documents\visual studio 2013\Projects\FactoryHeroes\FactoryHeroes\obj\Debug\FactoryHeroes.pdb
