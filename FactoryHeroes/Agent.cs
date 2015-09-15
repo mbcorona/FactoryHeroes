@@ -8,52 +8,29 @@ namespace FactoryHeroes
 {
     class Agent : Hero
     {
-        int damage;
-        Asks ask = new Asks();
-        public Agent()
+        public Agent(string a, string b)
         {
-            weapon1 = ask.askWeapon();
-            Console.WriteLine("Choose a weapon for special attack");
-            weapon2 = ask.askWeapon();
-            Console.WriteLine("Agent hero created. Weapons: " + weapon1 + " & " + weapon2);
-            Console.WriteLine("Press any key to continue: ");
-            int opc = 0;
-            do
-            {
-                opc = ask.askAttack();
-                if (opc == 1)
-                {
-                    attack();
-                }
-                else
-                {
-                    speAttack();
-                }
-            } while (opc != 0);
-        }
-
-        public void attack()
-        {
+            type = "Agent";
+            weapon1 = a;
+            weapon2 = b;
+            Asks ask = new Asks();
             if (weapon1.Equals("Gun") || weapon1.Equals("Explosive"))
-                damage = ask.askPower(weapon1) * 2;
+                damage1 = ask.askPower(weapon1) * 2;
             else
-                damage = ask.askPower(weapon1);
-            Console.WriteLine("Your agent give a hit with " + weapon1 +
-                "\nDamage: " + damage);
-        }
-
-        public void speAttack()
-        {
-            if (weapon1.Equals("Gun") || weapon1.Equals("Explosive"))
-                damage = ask.askPower(weapon1) * 4;
+                damage2 = ask.askPower(weapon1);
+            if (weapon2.Equals("Gun") || weapon2.Equals("Explosive"))
+                damage2 = ask.askPower(weapon2) * 4;
             else
-                damage = ask.askPower(weapon1) * 2;
-            Console.WriteLine("Your agent give a special hit with " + weapon1 +
-                "\nDamage: " + damage);
+                damage2 = ask.askPower(weapon2) * 2;
         }
+        public string type { set; get; }
 
         public string weapon1 { set; get; }
 
         public string weapon2 { set; get; }
+
+        public int damage1 { set; get; }
+
+        public int damage2 { set; get; }
     }
 }

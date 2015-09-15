@@ -8,10 +8,9 @@ namespace FactoryHeroes
 {
     class Asks
     {
-        public string askWeapon()
+        public string askWeapon(string mess)
         {
-            string message = "Choose a weapon\n" +
-            "1 Blade\n2 Axe\n3 Wand\n4 Spell\n5 Gun\n6 Explosive";
+            string message = mess + "\n1 Blade\n2 Axe\n3 Stick\n4 Spell\n5 Gun\n6 Explosive";
             Console.WriteLine(message);
             switch (Console.ReadLine())
             {
@@ -29,7 +28,7 @@ namespace FactoryHeroes
                     return "Explosive";
                 default:
                     Console.WriteLine("Invalid input. Try again");
-                    return askWeapon();
+                    return askWeapon(mess);
             }
         }
         public int askAttack()

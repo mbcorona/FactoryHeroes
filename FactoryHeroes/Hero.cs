@@ -8,9 +8,10 @@ namespace FactoryHeroes
 {
     interface Hero
     {
+        string type { set; get; }
         string weapon1 { set; get; }
         string weapon2 { set; get; }
-        void attack();
-        void speAttack();
+        int damage1 { set; get; }
+        int damage2 { set; get; }
     }
 }

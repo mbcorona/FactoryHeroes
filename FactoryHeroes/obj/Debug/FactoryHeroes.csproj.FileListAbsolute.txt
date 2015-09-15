@@ -4,3 +4,12 @@ c:\users\mbcorona\documents\visual studio 2013\Projects\FactoryHeroes\FactoryHer
 c:\users\mbcorona\documents\visual studio 2013\Projects\FactoryHeroes\FactoryHeroes\bin\Debug\FactoryHeroes.pdb
 c:\users\mbcorona\documents\visual studio 2013\Projects\FactoryHeroes\FactoryHeroes\obj\Debug\FactoryHeroes.exe
 c:\users\mbcorona\documents\visual studio 2013\Projects\FactoryHeroes\FactoryHeroes\obj\Debug\FactoryHeroes.pdb
+C:\Users\Bruno\Desktop\FactoryHeroes-master\FactoryHeroes\bin\Debug\FactoryHeroes.exe.config
+C:\Users\Bruno\Desktop\FactoryHeroes-master\FactoryHeroes\obj\Debug\FactoryHeroes.exe
+C:\Users\Bruno\Desktop\FactoryHeroes-master\FactoryHeroes\obj\Debug\FactoryHeroes.pdb
+C:\Users\Bruno\Desktop\FactoryHeroes-master\FactoryHeroes\obj\Debug\FactoryHeroes.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\Desktop\FactoryHeroes-master\FactoryHeroes\bin\Debug\FactoryHeroes.exe
+C:\Users\Bruno\Desktop\FactoryHeroes-master\FactoryHeroes\bin\Debug\FactoryHeroes.pdb
+C:\Users\Bruno\Documents\GitHub\FactoryHeroes\FactoryHeroes\bin\Debug\FactoryHeroes.exe.config
+C:\Users\Bruno\Documents\GitHub\FactoryHeroes\FactoryHeroes\obj\Debug\FactoryHeroes.exe
+C:\Users\Bruno\Documents\GitHub\FactoryHeroes\FactoryHeroes\obj\Debug\FactoryHeroes.pdb
